@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Obby_gabut</title>
+   </head> 
+   <body>
+      <header>   
+         <h1>Obby_gabut(beta_test)</h1>
+         <nav>
+            <a href="https://www.roblox.com/id/games/124927487132417/Obby-gabut-beta-test">my game roblox link</a>
+            <a href="https://www.roblox.com/games/122768716900248/Obby-gabut-beta-test-V2">my game roblox link V2</a>
+            <a href="http://myrobloxgame.com/">my game roblox link V3</a>
+            <a href="http://myrobloxgame.com/">my game roblox link V4</a>
+         </nav>
+      </header>
+      <main>
+         <div class="row">
+            <div class="post-text-box">
+               <h1>Newest Post</h1>
+               <section>
+                  <h1>First Post</h1>
+                  <p>The first post’s content</p>
+               </section>
+            </div>
+            <div class="profile">
+               <h1>About Me</h1>
+               <img src="profile-picture.png" alt="Profile Picture">
+               <p>About the author: rayyan athallah</p>
+            </div>  
+         </div>        
+      </main>
+      <footer>
+         <a href="twitter.com/author">Twitter</a>
+         <a href="facebook.com/author">Facebook</a>
+         <a href="instagram.com/author">Instagram</a>
+      </footer>
+   </body>
+   <script>
+      document.getElementById('animateBtn').addEventListener('click', function() {
+    const box = document.getElementById('box');
+    box.style.transform = 'translateX(200px)'; // Move the box to the right
+});
+</script>
+  <script>
+      // Fade-in effect for the main content
+      window.onload = function() {
+          const mainContent = document.querySelector('main');
+          mainContent.style.opacity = 0; // Start with opacity 0
+          mainContent.style.transition = 'opacity 1s'; // Transition effect
+          mainContent.style.opacity = 1; // Fade in to opacity 1
+      };
+  
+      // Add hover effect to the profile section
+      const profile = document.querySelector('.profile');
+      profile.addEventListener('mouseover', function() {
+          profile.style.transform = 'scale(1.05)'; // Enlarge the profile box
+          profile.style.transition = 'transform 0.3s'; // Transition effect
+      });
+  
+      profile.addEventListener('mouseout', function() {
+          profile.style.transform = 'scale(1)'; // Return to original size
+      });
+  </script>
+   <style>
+      /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+/* Header Styles */
+header {
+    background: #3498db;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-text-box {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.profile {
+    flex: 1;
+    background: #ecf0f1;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background: #3498db;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+</style>
+</html>ration: underline;
+}
+</style>
+</html>
